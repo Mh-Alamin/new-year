@@ -1,0 +1,206 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+/*.....start Banner section CSS */
+#banner{
+    width:100%;
+    height:800px;
+    background-image: url('images/banner/banner1.png');
+    margin-bottom:50px;
+}
+
+.banner-r-content{
+    text-align: right;
+    padding-top:20%;
+    padding-right:80px;
+}
+
+.banner-r-content h1{
+    font-size:65px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.banner-r-content p{
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.banner-r-content button{
+    width:160px;
+    height:64px;
+    background-color:#F15B22;
+    color:#fff;
+    border:none;
+    cursor: pointer;
+    margin-top:20px;
+}
+
+/*.....End Banner section CSS */
+
+/*.....start Failure section CSS */
+
+#failure-section{
+    width:100%;
+    height:550px;
+    margin-bottom:150px;
+}
+
+#failure-section .left-images{
+    background-image:url('images/person.png');
+    height:600px;
+    width: 550px;
+    margin-left:120px;
+    float:left;
+    clear: right;
+}
+
+#failure-section .right-content{
+  float: left;
+  margin-top:250px;
+  margin-left:50px;
+}
+
+#failure-section .right-content b{
+   font-size:40px;
+}
+
+#failure-section .right-content p{
+    font-size:16px;
+    margin-top:10px;
+    color:gray;
+    margin-bottom:10px;
+ }
+
+
+ /*.....End Failure section CSS */
+
+
+ /*.....Start My Plans section CSS */
+
+ #my-plans{
+  margin: 50px 0px 50px 0px;
+ }
+
+ #my-plans h2{
+    text-align: center;
+    font-size:42px;
+    font-weight:bold;
+ }
+
+ .plans ul{
+    display: flex;
+    margin-left:150px;
+
+ }
+
+ .plans ul li{
+    text-align: center;
+    list-style-type: none;
+    padding:50px;
+    cursor: pointer;
+ }
+
+ .plans ul li b{
+    font-size:28px;
+    font-weight: 900;
+ }
+
+ .plans ul li span{
+    font-size:20px;
+    color:gray;
+    top:5px;
+ }
+
+
+ /*.....End My Plans section CSS */
+
+
+/*.....Start Call Now section CSS */
+
+#call-now-section{
+    background-image: url('images/watch.png');
+    width:70%;
+    height:250px;
+    margin-left:15%;
+    margin-bottom:100px;
+}
+
+.call-now-content h1{
+    color:#fff;
+    padding:40px;
+    font-size:42px;
+    font-weight: bold;
+}
+
+.call-now-content button{
+    width:160px;
+    height:64px;
+    background-color:#fff;
+    color:#F15B22;;
+    border:none;
+    cursor: pointer;
+    margin-left:40px;
+    font-weight: bold;
+}
+/*.....End Call Now section CSS */
+
+/*.....Start footer section CSS */
+
+#main-footer{
+    background-color:black;
+    height:500px;
+    width:100%;
+    display: flex;
+}
+
+.footer-l-content{
+    padding:150px;
+    color:#fff;
+}
+
+.footer-l-content h1{
+   font-size: 42px;
+   font-weight: bold;
+}
+
+.footer-l-content p{
+    font-size: 18px;
+    margin-top:10px;
+    letter-spacing:2px;
+ }
+
+.footer-r-content{
+    padding:150px;
+    color:#fff;
+}
+
+.footer-r-content input{
+  height:50px;
+  width:250px;
+  background-color:black;
+  border:2px solid #fff;
+}
+
+::placeholder{
+    color:#fff;
+    padding-left:15px;
+    font-size:16px;
+}
+
+.footer-r-content button{
+    width:160px;
+    height:64px;
+    background-color:#fff;
+    color:#F15B22;;
+    border:none;
+    cursor: pointer;
+    font-weight: bold; 
+    margin-top:10px;
+}
+
+/*.....End footer section CSS */
+ 
+ 
